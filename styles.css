@@ -45,12 +45,12 @@ body {
   width: 1000px;
  }
 
- @media only screen and (max-width: 800px) {
+ @media (max-width: 900px) {
   .main {
-    border: none;
+    border: none !important;
   }
   .name {
-    font-size: 2em;
+    font-size: 6em !important;
   }
 }
 
