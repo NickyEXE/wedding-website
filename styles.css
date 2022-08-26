@@ -41,18 +41,9 @@ body {
  main {
   text-align: center;
   padding: 3em;
-  border: solid white 1px;
+  /* border: solid white 1px; */
   width: 1000px;
  }
-
- @media (max-width: 900px) {
-  .main {
-    border: none !important;
-  }
-  .name {
-    font-size: 6em !important;
-  }
-}
 
  .name {
   color: #00f7f7;
